@@ -21,10 +21,9 @@
 			<td><strong><?php echo $total;?></strong></td>
 		</tr>
 		<tr><td colspan="2" align="center"><hr style="border-top: dotted 1px;" /></td></tr>
+		
 		<?php if(sizeof($free_products) > 0) {?>
-		<tr>
-			<td colspan="2">Free Products: <?php echo implode(', ', $free_products);?></td>
-		</tr>
+		<tr><td colspan="2">Free Products: <?php echo implode(', ', $free_products);?></td></tr>
 		<tr><td colspan="2" align="center"><hr style="border-top: dotted 1px;" /></td></tr>
 		<?php }?>
 	</tfoot>
